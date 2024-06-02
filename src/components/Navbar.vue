@@ -9,10 +9,11 @@
 
             <div class="menu">
                 <ul>
-                    <li><a href="#">HOME</a></li>
+                    
+                    <li><router-link to="/">HOME</router-link></li>
                     <li><a href="#">ABOUT</a></li>
                     <!-- <li><a href="#">COURSE MATERIALS</a></li> -->
-                    <router-link to="/profile">PROFILE</router-link>
+                    <li><router-link to="/profile">PROFILE</router-link></li>
                     <li><a href="#">ASSESSMENT</a></li>
                     <li><a href="#">CONTACT US</a></li>
                 </ul>
@@ -76,7 +77,7 @@ ul li{
     font-size: 14px;
 }
 
-ul li a{
+ul li a, router-link-exact-active, router-link-active{
     text-decoration: none;
     color: white;
     font-family: Arial;
@@ -84,7 +85,7 @@ ul li a{
     transition: 0.4s ease-in-out;
 }
 
-ul li a:hover{
+ul li a:hover, router-link-exact-active:hover, router-link-active:hover{
     color: #ff7200;
 }
 .search{

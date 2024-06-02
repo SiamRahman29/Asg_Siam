@@ -11,8 +11,8 @@
   
   <script>
   // Import components
-  import Navbar from './components/Navbar.vue';
-  import Profile_Form from './components/Profile_Form.vue';
+  import Navbar from '../components/Navbar.vue';
+  import Profile_Form from '../components/Profile_Form.vue';
   
   export default {
     components: {
@@ -20,7 +20,7 @@
       Profile_Form
     },
     
-  };
+  }
   </script>
   
   <style>
@@ -33,7 +33,7 @@
   .main{
       width: 100%;
       background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),
-  url(./assets/3.jpg);
+  url(../assets/3.jpg);
       background-position: center;
       background-size: cover;
       height: 100vh;
