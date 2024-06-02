@@ -1,7 +1,7 @@
 <template>
 
   <nav>
-    <!-- Navbar html -->
+    
     <div class="navbar">
             <div class="icon">
                 <h2 class="logo">W.Tech.</h2>
@@ -24,13 +24,17 @@
         </div>
   </nav>
 </template>
+
+
 <script>
 export default {
-  name: 'AppNavbar', // Change to a multi-word component name
+  name: 'AppNavbar', 
 };
 </script>
+
+
 <style>
-/* Component styles go here */
+
 .navbar{
     width: 100%;
     height: 75px;

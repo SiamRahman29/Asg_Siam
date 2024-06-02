@@ -1,16 +1,16 @@
 <!-- App.vue -->
 <template>
   <div class="main">
-    <!-- Use the navbar component -->
+    
     <Navbar />
     
-    <!-- Use the content component -->
+    
     <Content />
   </div>
 </template>
 
 <script>
-// Import navbar and content components
+// Import components
 import Navbar from './components/Navbar.vue';
 import Content from './components/Content.vue';
 
@@ -19,12 +19,12 @@ export default {
     Navbar,
     Content
   },
-  // Main Vue component logic goes here
+  
 };
 </script>
 
 <style>
-/* Main component styles go here */
+
 *{
     margin: 0;
     padding: 0;

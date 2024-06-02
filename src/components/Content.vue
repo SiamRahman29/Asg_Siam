@@ -17,9 +17,11 @@
   
   <script>
   export default {
-    name: 'AppContent', // Change to a multi-word component name
+    name: 'AppContent', 
   };
   </script>
+
+
   <style>
  .content{
     width: 1200px;
