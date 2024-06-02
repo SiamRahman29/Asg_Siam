@@ -1,4 +1,6 @@
 <!-- App.vue -->
+
+
 <template>
   <div class="main">
     
@@ -13,6 +15,7 @@
 // Import components
 import Navbar from './components/Navbar.vue';
 import Content from './components/Content.vue';
+
 
 export default {
   components: {
