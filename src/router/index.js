@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import HomePage from '../views/HomePage.vue';
 import ProfilePage from '../views/ProfilePage.vue';
 import AboutPage from '../views/AboutPage.vue';
+import PhotosPage from '../views/PhotosPage.vue';
 
 const routes = [
   {
@@ -19,6 +20,11 @@ const routes = [
     path: '/about',
     name: 'About',
     component: AboutPage
+  },
+  {
+    path: '/photos',
+    name: 'photos',
+    component: PhotosPage
   }
 ];
 

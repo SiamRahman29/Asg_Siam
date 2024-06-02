@@ -14,8 +14,8 @@
                     <li><router-link to="/about">ABOUT</router-link></li>
                     <!-- <li><a href="#">COURSE MATERIALS</a></li> -->
                     <li><router-link to="/profile">PROFILE</router-link></li>
-                    <li><a href="#">ASSESSMENT</a></li>
-                    <li><a href="#">CONTACT US</a></li>
+                    <li><router-link to="/photos">PHOTOS</router-link></li>
+                    
                 </ul>
             </div>
 
