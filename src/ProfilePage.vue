@@ -11,8 +11,8 @@
   
   <script>
   // Import components
-  import Navbar from './Navbar.vue';
-  import Profile_Form from './Profile_Form.vue';
+  import Navbar from './components/Navbar.vue';
+  import Profile_Form from './components/Profile_Form.vue';
   
   export default {
     components: {

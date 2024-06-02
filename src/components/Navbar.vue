@@ -11,7 +11,8 @@
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">COURSE MATERIALS</a></li>
+                    <!-- <li><a href="#">COURSE MATERIALS</a></li> -->
+                    <router-link to="/profile">PROFILE</router-link>
                     <li><a href="#">ASSESSMENT</a></li>
                     <li><a href="#">CONTACT US</a></li>
                 </ul>
