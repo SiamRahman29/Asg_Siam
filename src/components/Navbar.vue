@@ -11,7 +11,7 @@
                 <ul>
                     
                     <li><router-link to="/">HOME</router-link></li>
-                    <li><a href="#">ABOUT</a></li>
+                    <li><router-link to="/about">ABOUT</router-link></li>
                     <!-- <li><a href="#">COURSE MATERIALS</a></li> -->
                     <li><router-link to="/profile">PROFILE</router-link></li>
                     <li><a href="#">ASSESSMENT</a></li>
